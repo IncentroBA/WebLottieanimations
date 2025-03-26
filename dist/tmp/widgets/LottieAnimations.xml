@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.lottieanimations.LottieAnimations" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Lottie Animations</name>
+    <description>Add Lottie JSON Animations for web</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="lottieFile" type="string" multiline="true" required="true">
+                <caption>lottie JSON</caption>
+                <description></description>
+            </property>
+            <property key="fileVisibility" type="attribute" required="false">
+                <caption>file visibility</caption>
+                <description/>
+                <attributeTypes>
+                    <attributeType name="Boolean"/>
+                </attributeTypes>
+            </property>
+            <property key="imageHeight" type="integer" defaultValue="200">
+                <caption>Height</caption>
+                <description/>
+            </property>
+            <property key="imageWidth" type="integer" defaultValue="200">
+                <caption>Width</caption>
+                <description/>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

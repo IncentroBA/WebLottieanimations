@@ -1,0 +1,11 @@
+.lottie-animations-widget {}
+
+.lottie-animations-widget .full-container {
+  align-items: "center";
+  flex: 1;
+  justify-content: "center";
+}
+
+.lottie-animations-widget .hidden {
+  display: "none";
+}

@@ -1,0 +1,12 @@
+.lottie-animations-widget {}
+
+.lottie-animations-widget .full-container {
+  align-items: "center";
+  flex: 1;
+  justify-content: "center";
+}
+
+.lottie-animations-widget .hidden {
+  display: "none";
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy91aS9Mb3R0aWVBbmltYXRpb25zLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwyQkFBMkI7O0FBRTNCO0VBQ0UscUJBQXFCO0VBQ3JCLE9BQU87RUFDUCx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6IkxvdHRpZUFuaW1hdGlvbnMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmxvdHRpZS1hbmltYXRpb25zLXdpZGdldCB7fVxuXG4ubG90dGllLWFuaW1hdGlvbnMtd2lkZ2V0IC5mdWxsLWNvbnRhaW5lciB7XG4gIGFsaWduLWl0ZW1zOiBcImNlbnRlclwiO1xuICBmbGV4OiAxO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IFwiY2VudGVyXCI7XG59XG5cbi5sb3R0aWUtYW5pbWF0aW9ucy13aWRnZXQgLmhpZGRlbiB7XG4gIGRpc3BsYXk6IFwibm9uZVwiO1xufSJdfQ==*/
