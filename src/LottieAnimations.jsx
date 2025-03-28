@@ -1,3 +1,8 @@
+// Manually modify node_modules/lottie-web/build/player/lottie.js
+// from
+// var expression_function = eval('[function _expression_function(){' + val + ';scoped_bm_rt=$bm_rt}]')[0]; // eslint-disable-line no-eval
+// to
+// var expression_function = new Function('scoped_bm_rt', val + '; return $bm_rt;'); // eslint-disable-line no-eval
 import "./ui/LottieAnimations.css";
 import { createElement, useEffect, useState } from "react";
 import Lottie from "react-lottie";
